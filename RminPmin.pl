@@ -75,7 +75,7 @@ my $posi;
 my $pmin;
 
 foreach my $line1(@new1){
-	if(substr($line1, 2, 7) == $min_dist){
+	if(substr($line1, 3, 7) == $min_dist){
 		$posi = substr($line1, 0,3);		#Residue position closest to COM
 		$pmin = sprintf "%0.3f", $posi/$size;	# Pmin = position/n, n-> length of protein
 	}
