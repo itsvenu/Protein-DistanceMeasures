@@ -3,7 +3,7 @@ A simple but powerful way of finding the traces of protein cotranslational foldi
 is computing 'Ratio of minimum distances of near terminal segments to the centroid (Rmin)' and 'Proportion of length
 until closest to the centroid'.
 
-Rmin = Cmin/Nmin
+                            Rmin = Cmin/Nmin
 
        Nmin = min{d(Ri, C):i=1..10}
        
@@ -13,7 +13,7 @@ Rmin = Cmin/Nmin
        
        n - length of protein
   
-Pmin = i/n
+                            Pmin = i/n
 
         i - residue postion closest to the centroid, starting from N-terminal
         n - Total number of residues
