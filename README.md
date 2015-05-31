@@ -1,7 +1,7 @@
 #### RminPmin
 A simple but powerful way of finding the traces of protein cotranslational folding from the determined strcutures
 is computing 'Ratio of minimum distances of near terminal segments to the centroid (Rmin)' and 'Proportion of length
-until closest to the centroid'.
+until closest to the centroid(Pmin)'.
 
                             Rmin = Cmin/Nmin
 
